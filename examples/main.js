@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 
-import { toast } from '../dist/toast'
+import { toast } from '../dist/pubtest_wp'
 Vue.use(toast);
 
 
