@@ -1,30 +1,14 @@
-# vue_pub
+# 测试npm插件发布 pubtest_wp
 
-> test 
+> test pubtest_wp
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+页面弹框
+  npm i pubtest_wp
 
-# serve with hot reload at localhost:8080
-npm run dev
+  this.$toast(str) 弹出提示框
+  <toast></toast> 为测试文字
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
