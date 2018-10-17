@@ -1,7 +1,7 @@
 {
   "name": "pubtest_wp",
-  "version": "1.0.3",
-  "description": "test",
+  "version": "1.0.9",
+  "description": "测试npm发布插件",
   "author": "1091719743@qq.com",
   "license": "MIT",
   "private": false,
@@ -18,9 +18,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-
-    "dist": "webpack --config build/webpack.pub.conf.js",
-    "publish": "npm publish"
+    "dist": "NODE_ENV=production webpack --config build/webpack.pub.conf.js"
   },
   "dependencies": {
     "vue": "^2.5.2",

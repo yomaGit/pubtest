@@ -12,18 +12,13 @@
 
 <script>
 
-  import Vue from 'vue';
-  import toast from '../../src/components/toast/index'
-
-  Vue.use(toast);
-
   export default {
     name: 'HelloWorld',
     data() {
       return {}
     },
-    methods:{
-      toastshow(str){
+    methods: {
+      toastshow(str) {
         this.$toast(str)
       }
     }

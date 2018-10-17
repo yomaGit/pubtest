@@ -4,6 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 
+import { toast } from '../dist/toast'
+Vue.use(toast);
+
+
 Vue.use(Router)
 
 const router=new Router({
