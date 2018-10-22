@@ -25,7 +25,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     clientLogLevel: 'warning',
     historyApiFallback: {
       rewrites: [
-        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, 'examples/index.html') },
+        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, 'src/examples/index.html') },
       ],
     },
     hot: true,
@@ -54,7 +54,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'examples/index.html',
+      template: 'src/examples/index.html',
       inject: true
     }),
     // copy custom static assets

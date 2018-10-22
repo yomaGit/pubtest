@@ -2,7 +2,7 @@ import toast from './toast.vue'
 
 let Toast = {};
 Toast.install = function (Vue, options) {
-  Vue.prototype.$toast = (tips) => {
+  Vue.prototype.$toast = (tips='') => {
     let top=60;
     let length=document.getElementsByClassName('vue-toast').length;
     for(let i=0;i<length;i++){

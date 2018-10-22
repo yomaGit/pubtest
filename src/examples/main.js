@@ -4,9 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 
-import { toast } from '../dist/pubtest_wp'
+import { toast } from '../../dist/pubtest_wp'
 Vue.use(toast);
-
 
 Vue.use(Router)
 
@@ -14,8 +13,8 @@ const router=new Router({
   routes: [
     {
       path: '/',
-      name: 'toast',
-      component: (resolve) => require(['./components/toast.vue'], resolve)
+      name: 'index',
+      component: (resolve) => require(['./components/index.vue'], resolve)
     },
     {
       path: '/toast',

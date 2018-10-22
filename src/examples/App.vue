@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-
-    <ul>
-      <li><a href="#/toast">toast</a></li>
-    </ul>
-
     <router-view/>
   </div>
 </template>

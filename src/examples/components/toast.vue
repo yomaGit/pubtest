@@ -2,7 +2,9 @@
   <div>
     toast test
 
-    <toast></toast>
+    <Toast class="test"></Toast>
+
+    <div class="testnum">12345</div>
 
     <button @click="toastshow('i am toast0')">toast show 'i am toast0'</button>
     <button @click="toastshow('i am toast1')">toast show 'i am toast1'</button>
@@ -13,7 +15,7 @@
 <script>
 
   export default {
-    name: 'HelloWorld',
+    name: 'toast_name',
     data() {
       return {}
     },
