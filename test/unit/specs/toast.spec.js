@@ -7,7 +7,7 @@ describe('toast.vue', () => {
     destroyVM(vm);
   })
 
-  it('test toast content && length', done => {
+  it('should behave content && length', done => {
     vm = createVue({
       render: () => {}
     })
