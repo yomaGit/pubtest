@@ -5,6 +5,7 @@ import App from './App'
 import Router from 'vue-router'
 
 import { toast } from '../../dist/pubtest_wp'
+// import { toast } from '../index'
 Vue.use(toast);
 
 Vue.use(Router)

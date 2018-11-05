@@ -1,6 +1,6 @@
 import {destroyVM, createVue, waitForIt} from "../util";
 
-describe('toast.vue', () => {
+describe('toast.vue', () => {//- 测试用例
 
   let vm;
   afterEach(() => {
@@ -16,7 +16,7 @@ describe('toast.vue', () => {
     let messageContainer = null;
 
     let testarr=[testMessage,'lalala']
-    testarr.map((v)=>{
+    testarr.forEach((v)=>{//- 只为了遍历数据，forEach最佳
       vm.$toast(v);
     })
 

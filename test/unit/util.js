@@ -1,3 +1,8 @@
+/**
+ * @author element
+ * @default https://github.com/ElemeFE/element/blob/dev/test/unit/util.js
+ */
+
 import Vue from 'vue';
 
 import { toast } from '../../dist/pubtest_wp'
